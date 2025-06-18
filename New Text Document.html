@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products Categories</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: linear-gradient(to bottom, #fff, #fef7ed);
+        font-family: "Segoe UI", sans-serif;
+      }
+
+      .section-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+      }
+
+      .highlight {
+        position: relative;
+        display: inline-block;
+      }
+
+      .highlight::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 12px;
+        background: #f9c744;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+      }
+
+      .nav-pills .nav-link {
+        color: #333;
+        font-weight: 500;
+        margin-right: 15px;
+      }
+
+      .nav-pills .nav-link.active {
+        border-bottom: 2px solid #0f3e2c;
+        color: #0f3e2c;
+        background: transparent;
+      }
+
+      .product-card {
+        border-radius: 15px;
+        background-color: #fff9ed;
+        padding: 20px;
+        transition: 0.3s;
+        height: 100%;
+      }
+
+      .product-card img {
+        max-height: 150px;
+        object-fit: contain;
+      }
+
+      .product-title {
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
+
+      .product-price {
+        color: #0f3e2c;
+        font-weight: 600;
+        margin: 5px 0;
+      }
+
+      .btn-collection {
+        background-color: #0f3e2c;
+        color: #fff;
+        border-radius: 6px;
+        padding: 8px 16px;
+      }
+
+      @media (max-width: 576px) {
+        .section-title {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container py-5">
+      <!-- Heading -->
+      <div class="text-center mb-4">
+        <h2 class="section-title">
+          Products <span class="highlight">Categories</span>
+        </h2>
+      </div>
+
+      <!-- Category Navigation -->
+      <ul class="nav nav-pills justify-content-center mb-5">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Chairs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sofa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tables</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Storage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kitchen</a>
+        </li>
+      </ul>
+
+      <!-- Product Grid -->
+      <div class="row g-4">
+        <!-- Product Card -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="product-card text-center">
+            <img
+              src="https://i.imgur.com/YOUR_IMAGE1.png"
+              alt="Amet Chair"
+              class="img-fluid mb-3"
+            />
+            <div class="product-title">Amet Chair</div>
+            <div class="product-price">$106.00</div>
+            <button class="btn btn-collection">See Collection</button>
+          </div>
+        </div>
+
+        <!-- Repeat similar cards -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="product-card text-center">
+            <img
+              src="https://i.imgur.com/YOUR_IMAGE2.png"
+              alt="Leather Chair"
+              class="img-fluid mb-3"
+            />
+            <div class="product-title">Leather Chair</div>
+            <div class="product-price">$106.00</div>
+            <button class="btn btn-collection">See Collection</button>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="product-card text-center">
+            <img
+              src="https://i.imgur.com/YOUR_IMAGE3.png"
+              alt="Interior Chair"
+              class="img-fluid mb-3"
+            />
+            <div class="product-title">Interior Chair</div>
+            <div class="product-price">$106.00</div>
+            <button class="btn btn-collection">See Collection</button>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="product-card text-center">
+            <img
+              src="https://i.imgur.com/YOUR_IMAGE4.png"
+              alt="Fuastick Chair"
+              class="img-fluid mb-3"
+            />
+            <div class="product-title">Fuastick Chair</div>
+            <div class="product-price">$106.00</div>
+            <button class="btn btn-collection">See Collection</button>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="product-card text-center">
+            <img
+              src="https://i.imgur.com/YOUR_IMAGE5.png"
+              alt="Urban Chair"
+              class="img-fluid mb-3"
+            />
+            <div class="product-title">Urban Chair</div>
+            <div class="product-price">$106.00</div>
+            <button class="btn btn-collection">See Collection</button>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="product-card text-center">
+            <img
+              src="https://i.imgur.com/YOUR_IMAGE6.png"
+              alt="Tempor Chair"
+              class="img-fluid mb-3"
+            />
+            <div class="product-title">Tempor Chair</div>
+            <div class="product-price">$106.00</div>
+            <button class="btn btn-collection">See Collection</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxury Chair Section</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .section-dark {
+        background-color: #12342e;
+        color: white;
+        padding: 60px 0;
+      }
+
+      .luxury-img {
+        max-width: 100%;
+        border-radius: 10px;
+      }
+
+      .product-info {
+        font-size: 14px;
+        color: #ddd;
+      }
+
+      .section-number {
+        font-size: 14px;
+        color: #aaa;
+      }
+
+      .avatar-group img {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        border: 2px solid white;
+        margin-left: -10px;
+      }
+
+      .stat-box {
+        font-size: 1rem;
+        color: #fff;
+      }
+
+      .stat-box h5 {
+        font-weight: bold;
+        color: #ffc107;
+      }
+
+      .right-yellow {
+        background-color: #f3c743;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .lamp-img {
+        max-height: 250px;
+        width: auto;
+      }
+
+      @media (max-width: 768px) {
+        .avatar-group img {
+          width: 28px;
+          height: 28px;
+        }
+
+        .lamp-img {
+          max-height: 180px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <!-- Left Image -->
+        <div class="col-md-3 col-sm-12 section-dark text-center p-4">
+          <img
+            src="https://i.imgur.com/nC3zqKl.png"
+            alt="Luxury Chair"
+            class="luxury-img mb-3"
+          />
+          <p class="section-number">01 &mdash;&mdash;&mdash;&mdash; 05</p>
+        </div>
+
+        <!-- Center Content -->
+        <div
+          class="col-md-6 col-sm-12 section-dark text-center text-md-start p-4"
+        >
+          <h4 class="mb-2">Luxury Chair</h4>
+          <p class="product-info">
+            We Design Pieces of Furniture And Object That Perfectly Gap Between
+            Functionality And Beauty.
+          </p>
+          <div
+            class="my-4 d-flex align-items-center justify-content-center justify-content-md-start flex-wrap gap-2"
+          >
+            <p class="mb-0 product-info">
+              We Design Pieces of Furniture And Object That Perfectly Gap
+            </p>
+            <div class="ms-3 avatar-group d-flex align-items-center">
+              <img src="https://i.pravatar.cc/36?img=1" alt="Avatar 1" />
+              <img src="https://i.pravatar.cc/36?img=2" alt="Avatar 2" />
+              <img src="https://i.pravatar.cc/36?img=3" alt="Avatar 3" />
+              <img src="https://i.pravatar.cc/36?img=4" alt="Avatar 4" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Stats + Lamp -->
+        <div class="col-md-3 col-sm-12 right-yellow text-center p-4">
+          <div class="stat-box mb-3">
+            <h5>10k+</h5>
+            <p>Satisfied Client</p>
+          </div>
+          <div class="stat-box mb-3">
+            <h5>419</h5>
+            <p>Total Products</p>
+          </div>
+          <img
+            src="https://i.imgur.com/ECQHbIl.png"
+            alt="Lamp"
+            class="lamp-img mt-2"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

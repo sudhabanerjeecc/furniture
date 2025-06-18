@@ -1,0 +1,400 @@
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-Light.eot");
+  src: url("../fonts/Lufga-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lufga-Light.woff2") format("woff2"),
+    url("../fonts/Lufga-Light.woff") format("woff"),
+    url("../fonts/Lufga-Light.ttf") format("truetype"),
+    url("../fonts/Lufga-Light.svg#Lufga-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-ExtraLightItalic.eot");
+  src: url("../fonts/Lufga-ExtraLightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Lufga-ExtraLightItalic.woff2") format("woff2"),
+    url("../fonts/Lufga-ExtraLightItalic.woff") format("woff"),
+    url("../fonts/Lufga-ExtraLightItalic.ttf") format("truetype"),
+    url("../fonts/Lufga-ExtraLightItalic.svg#Lufga-ExtraLightItalic")
+      format("svg");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-Italic.eot");
+  src: url("../fonts/Lufga-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lufga-Italic.woff2") format("woff2"),
+    url("../fonts/Lufga-Italic.woff") format("woff"),
+    url("../fonts/Lufga-Italic.ttf") format("truetype"),
+    url("../fonts/Lufga-Italic.svg#Lufga-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-ExtraBold.eot");
+  src: url("../fonts/Lufga-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lufga-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Lufga-ExtraBold.woff") format("woff"),
+    url("../fonts/Lufga-ExtraBold.ttf") format("truetype"),
+    url("../fonts/Lufga-ExtraBold.svg#Lufga-ExtraBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-ExtraLight.eot");
+  src: url("../fonts/Lufga-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lufga-ExtraLight.woff2") format("woff2"),
+    url("../fonts/Lufga-ExtraLight.woff") format("woff"),
+    url("../fonts/Lufga-ExtraLight.ttf") format("truetype"),
+    url("../fonts/Lufga-ExtraLight.svg#Lufga-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-BoldItalic.eot");
+  src: url("../fonts/Lufga-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lufga-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Lufga-BoldItalic.woff") format("woff"),
+    url("../fonts/Lufga-BoldItalic.ttf") format("truetype"),
+    url("../fonts/Lufga-BoldItalic.svg#Lufga-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-ExtraBoldItalic.eot");
+  src: url("../fonts/Lufga-ExtraBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Lufga-ExtraBoldItalic.woff2") format("woff2"),
+    url("../fonts/Lufga-ExtraBoldItalic.woff") format("woff"),
+    url("../fonts/Lufga-ExtraBoldItalic.ttf") format("truetype"),
+    url("../fonts/Lufga-ExtraBoldItalic.svg#Lufga-ExtraBoldItalic")
+      format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-MediumItalic.eot");
+  src: url("../fonts/Lufga-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lufga-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Lufga-MediumItalic.woff") format("woff"),
+    url("../fonts/Lufga-MediumItalic.ttf") format("truetype"),
+    url("../fonts/Lufga-MediumItalic.svg#Lufga-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-SemiBoldItalic.eot");
+  src: url("../fonts/Lufga-SemiBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Lufga-SemiBoldItalic.woff2") format("woff2"),
+    url("../fonts/Lufga-SemiBoldItalic.woff") format("woff"),
+    url("../fonts/Lufga-SemiBoldItalic.ttf") format("truetype"),
+    url("../fonts/Lufga-SemiBoldItalic.svg#Lufga-SemiBoldItalic") format("svg");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-LightItalic.eot");
+  src: url("../fonts/Lufga-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lufga-LightItalic.woff2") format("woff2"),
+    url("../fonts/Lufga-LightItalic.woff") format("woff"),
+    url("../fonts/Lufga-LightItalic.ttf") format("truetype"),
+    url("../fonts/Lufga-LightItalic.svg#Lufga-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-ThinItalic.eot");
+  src: url("../fonts/Lufga-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lufga-ThinItalic.woff2") format("woff2"),
+    url("../fonts/Lufga-ThinItalic.woff") format("woff"),
+    url("../fonts/Lufga-ThinItalic.ttf") format("truetype"),
+    url("../fonts/Lufga-ThinItalic.svg#Lufga-ThinItalic") format("svg");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-Medium.eot");
+  src: url("../fonts/Lufga-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lufga-Medium.woff2") format("woff2"),
+    url("../fonts/Lufga-Medium.woff") format("woff"),
+    url("../fonts/Lufga-Medium.ttf") format("truetype"),
+    url("../fonts/Lufga-Medium.svg#Lufga-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-Thin.eot");
+  src: url("../fonts/Lufga-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lufga-Thin.woff2") format("woff2"),
+    url("../fonts/Lufga-Thin.woff") format("woff"),
+    url("../fonts/Lufga-Thin.ttf") format("truetype"),
+    url("../fonts/Lufga-Thin.svg#Lufga-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-SemiBold.eot");
+  src: url("../fonts/Lufga-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lufga-SemiBold.woff2") format("woff2"),
+    url("../fonts/Lufga-SemiBold.woff") format("woff"),
+    url("../fonts/Lufga-SemiBold.ttf") format("truetype"),
+    url("../fonts/Lufga-SemiBold.svg#Lufga-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-Regular.eot");
+  src: url("../fonts/Lufga-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lufga-Regular.woff2") format("woff2"),
+    url("../fonts/Lufga-Regular.woff") format("woff"),
+    url("../fonts/Lufga-Regular.ttf") format("truetype"),
+    url("../fonts/Lufga-Regular.svg#Lufga-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-Black.eot");
+  src: url("../fonts/Lufga-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lufga-Black.woff2") format("woff2"),
+    url("../fonts/Lufga-Black.woff") format("woff"),
+    url("../fonts/Lufga-Black.ttf") format("truetype"),
+    url("../fonts/Lufga-Black.svg#Lufga-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-BlackItalic.eot");
+  src: url("../fonts/Lufga-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lufga-BlackItalic.woff2") format("woff2"),
+    url("../fonts/Lufga-BlackItalic.woff") format("woff"),
+    url("../fonts/Lufga-BlackItalic.ttf") format("truetype"),
+    url("../fonts/Lufga-BlackItalic.svg#Lufga-BlackItalic") format("svg");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("../fonts/Lufga-Bold.eot");
+  src: url("../fonts/Lufga-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lufga-Bold.woff2") format("woff2"),
+    url("../fonts/Lufga-Bold.woff") format("woff"),
+    url("../fonts/Lufga-Bold.ttf") format("truetype"),
+    url("../fonts/Lufga-Bold.svg#Lufga-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --primary: #223e3f;
+  --secondary: #f2c229;
+  --light-gray: #fafaf5;
+  --light-black: #515151;
+  --border: #ebebeb;
+  --font-primary: "lufga";
+  --font-secondary: "Zen Dots", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-size: 1.8rem;
+  line-height: normal;
+  font-family: var(--font-primary);
+  color: var(--light-black);
+}
+.btn-custom {
+  background-color: var(--primary);
+  font-size: 1.8rem;
+  color: #fff;
+  padding: 1.2rem 2.8rem;
+  border-radius: 0.6rem;
+}
+.btn-custom:hover {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+.btn-custom .bi {
+  background-color: var(--secondary);
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--primary);
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.btn-custom:hover > .bi {
+  background-color: var(--primary);
+  color: #fff;
+}
+/*Header*/
+.header__brand {
+  width: 10rem;
+}
+.header__nav-collapse {
+  margin-left: 9rem;
+}
+.header__nav-list > li {
+  margin: 0 2.5rem;
+}
+.header__nav-link {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.header__nav-link.active {
+  font-weight: 500;
+  font-style: normal;
+  color: var(--primary);
+}
+.header__nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0.2rem;
+  background-color: var(--primary);
+  border-radius: 0.2rem;
+  transition: width 0.3s ease-in-out;
+}
+.header__nav-link.active::after,
+.header__nav-link:hover::after {
+  width: 50%;
+}
+.header__cart-icon {
+  width: 4.6rem;
+  height: 4.6rem;
+  background: var(--secondary);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__cart-badge {
+  background-color: #fff;
+  font-size: 1.1rem;
+  color: var(--primary);
+  width: 1.8rem;
+  height: 1.8rem;
+  font-weight: normal;
+}
+
+/*hero-section*/
+.hero {
+  background-color: #fff;
+  /* height: 795px; */
+  padding-top: 190px;
+  padding-bottom: 190px;
+}
+.hero__decor-lamp {
+  top: -190px;
+  right: 160px;
+}
+.hero__tag {
+  color: #bfbfbf;
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-style: normal;
+}
+.hero__title {
+  font-size: 6.8rem;
+  line-height: 8rem;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--primary);
+}
+.hero__description {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--light-black);
+}
+.hero__ellipse-right {
+  width: 557px;
+  height: 557px;
+  background-color: var(--secondary);
+  opacity: 1;
+  border-radius: 100%;
+  filter: blur(1140px);
+}
+.hero__ellipse-left {
+  width: 300px;
+  height: 300px;
+  background-color: var(--secondary);
+  opacity: 1;
+  border-radius: 100%;
+  filter: blur(524px);
+}
+.hero__btn-play {
+  background-color: var(--secondary);
+  padding: 1.5rem 2.8rem;
+  border-radius: 0.6rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.hero__btn-play img {
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-right: 1rem;
+}
