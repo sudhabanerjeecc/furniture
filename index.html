@@ -12,6 +12,11 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
       rel="stylesheet"
     />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
@@ -105,60 +110,79 @@
                 <span class="hero__video-text ms-2">Watch Video</span>
               </button>
             </div>
-            <div class="hero__shades mt-4 popular-shades-box">
-              <strong class="hero__shades-label">Popular Shades:</strong>
-              <span class="hero__shade-circle shade-circle shade-1"></span>
-              <span class="hero__shade-circle shade-circle shade-2"></span>
-              <span class="hero__shade-circle shade-circle shade-3"></span>
-            </div>
           </div>
 
           <!-- Right Carousel -->
-          <div class="hero__carousel col-lg-6">
+          <div
+            class="hero__carousel col-lg-6 overflow-hidden p-0 position-relative"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <span class="hero__carousel-border"></span>
+                <div class="hero__carousel-thumb position-relative">
+                  <img src="images/banner-thumb1.png" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <span class="hero__carousel-border"></span>
+                <div class="hero__carousel-thumb position-relative">
+                  <img src="images/banner-thumb2.png" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <span class="hero__carousel-border"></span>
+                <div class="hero__carousel-thumb position-relative">
+                  <img src="images/banner-thumb3.png" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <span class="hero__carousel-border"></span>
+                <div class="hero__carousel-thumb position-relative">
+                  <img src="images/banner-thumb4.png" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
             <div
-              id="hero__chair-carousel"
-              class="hero__carousel-container carousel slide"
-              data-bs-ride="carousel"
+              thumbsSlider=""
+              class="swiper mySwiper hero__carousel-navigation"
             >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <span class="hero__back-border"></span>
                   <img
-                    src="https://i.imgur.com/W7NEx6d.png"
-                    class="carousel__image d-block w-100"
-                    alt="Chair 1"
+                    src="images/banner-thumb1.png"
+                    width="74px"
+                    height="80px"
                   />
                 </div>
-                <div class="carousel-item">
+                <div class="swiper-slide">
+                  <span class="hero__back-border"></span>
                   <img
-                    src="https://i.imgur.com/0vfs3h0.png"
-                    class="carousel__image d-block w-100"
-                    alt="Chair 2"
+                    src="images/banner-thumb2.png"
+                    width="74px"
+                    height="80px"
                   />
                 </div>
-                <div class="carousel-item">
+                <div class="swiper-slide">
+                  <span class="hero__back-border"></span>
                   <img
-                    src="https://i.imgur.com/Z2UuKcE.png"
-                    class="carousel__image d-block w-100"
-                    alt="Chair 3"
+                    src="images/banner-thumb3.png"
+                    width="74px"
+                    height="80px"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <span class="hero__back-border"></span>
+                  <img
+                    src="images/banner-thumb4.png"
+                    width="74px"
+                    height="80px"
                   />
                 </div>
               </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#hero__chair-carousel"
-                data-bs-slide="prev"
-              >
-                <span class="carousel-control-prev-icon"></span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#hero__chair-carousel"
-                data-bs-slide="next"
-              >
-                <span class="carousel-control-next-icon"></span>
-              </button>
             </div>
           </div>
         </div>
@@ -166,6 +190,101 @@
       <div class="hero__ellipse-right position-absolute end-0 top-0"></div>
     </section>
 
+    <section class="luxury-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10">
+            <div class="row">
+              <div
+                class="col-md-6 d-flex justify-content-center align-items-center"
+              >
+                <div
+                  class="luxury-section__chair-placeholder position-relative"
+                >
+                  <span class="position-absolute top-0 start-0"></span>
+                  <img
+                    src="images/banner-thumb2.png"
+                    alt="Luxury Chair Placeholder"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="luxury__chair">
+                  <h2 class="luxury__title">Luxury Chair</h2>
+                  <p class="luxury__description">
+                    A luxury chair is a piece of furniture that combines
+                    comfort, style, and high-quality materials to create an
+                    elegant seating option for any space.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="d-flex luxury__rating-box-container col-md-6 d-flex justify-content-between align-items-center"
+              >
+                <div
+                  class="d-flex luxury__rating-box align-items-center justify-content-between flex-wrap position-relative ms-3"
+                >
+                  <div>
+                    <p>
+                      We Design Pieces of Furniture And<br />Object That
+                      Perfectly Gap
+                    </p>
+                    <div class="rating-box mt-2">
+                      <img src="https://i.pravatar.cc/100?img=1" alt="user1" />
+                      <img src="https://i.pravatar.cc/100?img=2" alt="user2" />
+                      <img src="https://i.pravatar.cc/100?img=3" alt="user3" />
+                      <div class="star">★</div>
+                    </div>
+                  </div>
+                  <div
+                    class="luxury__rating-arrow text-white position-absolute bottom-0 end-0"
+                  >
+                    <img src="images/arrow-down.png" alt="Arrow Down" />
+                  </div>
+                </div>
+                <div class="luxury__client-feedback d-flex flex-wrap">
+                  <div>
+                    <span>10k+</span>
+                    <p>Satisfied Client</p>
+                  </div>
+                  <div>
+                    <span>419</span>
+                    <p>Total Products</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 luxury-section__image position-relative">
+            <div class="luxury-section__image-container position-relative">
+              <img
+                src="images/luxury-section__image-container-thumb-right.png"
+                alt="Luxury Chair"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".hero__carousel", {
+        loop: false,
+        cssMode: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: {
+            el: ".mySwiper",
+            slidesPerView: 4,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
