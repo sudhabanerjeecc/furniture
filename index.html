@@ -12,6 +12,9 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
     <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
@@ -266,6 +269,224 @@
         </div>
       </div>
     </section>
+    <section class="product-section py-5">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <h2 class="home-page-title product-section__title position-relative">
+            Products <span class="product-section__highlight">Categories</span>
+          </h2>
+
+          <!-- Tabs -->
+          <ul class="nav nav-tabs mt-4 product-tabs__nav" id="productTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link product-tabs__link active product-tabs__link--active" id="chairs-tab" data-bs-toggle="tab" data-bs-target="#chairs" type="button" role="tab">Chairs</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link product-tabs__link" id="sofa-tab" data-bs-toggle="tab" data-bs-target="#sofa" type="button" role="tab">Sofa</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link product-tabs__link" id="tables-tab" data-bs-toggle="tab" data-bs-target="#tables" type="button" role="tab">Tables</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link product-tabs__link" id="storage-tab" data-bs-toggle="tab" data-bs-target="#storage" type="button" role="tab">Storage</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link product-tabs__link" id="kitchen-tab" data-bs-toggle="tab" data-bs-target="#kitchen" type="button" role="tab">Kitchen</button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="productTabsContent">
+
+          <!-- Chairs Tab -->
+          <div class="tab-pane fade show active" id="chairs" role="tabpanel">
+            <div class="row">
+              <div class="col-12 product__container">
+                <div class="product__list">
+                  <div class="product-card__image-container">
+                    <img src="images/banner-thumb4.png" alt="Amet Chair" class="product-card__image mb-3">
+
+                  </div>
+                  <div class="product-card__details">
+                    <div class="product-card__title">Amet Chair</div>
+                    <div class="product-card__price">$106.00</div>
+                    <button class="btn btn-custom product-card__button">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="product__list">
+                  <div class="product-card__image-container">
+                    <img src="images/banner-thumb1.png" alt="Amet Chair" class="product-card__image mb-3">
+
+                  </div>
+                  <div class="product-card__details">
+                    <div class="product-card__title">Amet Chair</div>
+                    <div class="product-card__price">$106.00</div>
+                    <button class="btn btn-custom product-card__button">Add To Cart</button>
+                  </div>
+                </div>
+                <div class="product__list">
+                  <div class="product-card__image-container">
+                    <img src="images/banner-thumb1.png" alt="Amet Chair" class="product-card__image mb-3">
+
+                  </div>
+                  <div class="product-card__details">
+                    <div class="product-card__title">Amet Chair</div>
+                    <div class="product-card__price">$106.00</div>
+                    <button class="btn btn-custom product-card__button">Add To Cart</button>
+                  </div>
+                </div>
+                <div class="product__list">
+                  <div class="product-card__image-container">
+                    <img src="images/banner-thumb1.png" alt="Amet Chair" class="product-card__image mb-3">
+
+                  </div>
+                  <div class="product-card__details">
+                    <div class="product-card__title">Amet Chair</div>
+                    <div class="product-card__price">$106.00</div>
+                    <button class="btn btn-custom product-card__button">Add To Cart</button>
+                  </div>
+                </div>
+                <div class="product__list">
+                  <div class="product-card__image-container">
+                    <img src="images/banner-thumb1.png" alt="Amet Chair" class="product-card__image mb-3">
+
+                  </div>
+                  <div class="product-card__details">
+                    <div class="product-card__title">Amet Chair</div>
+                    <div class="product-card__price">$106.00</div>
+                    <button class="btn btn-custom product-card__button">Add To Cart</button>
+                  </div>
+                </div>
+                <div class="product__list">
+                  <div class="product-card__image-container">
+                    <img src="images/banner-thumb1.png" alt="Amet Chair" class="product-card__image mb-3">
+
+                  </div>
+                  <div class="product-card__details">
+                    <div class="product-card__title">Amet Chair</div>
+                    <div class="product-card__price">$106.00</div>
+                    <button class="btn btn-custom product-card__button">Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+              <!-- Product Card -->
+              
+            </div>
+          </div>
+
+          <!-- Empty Tab Panes -->
+          <div class="tab-pane fade" id="sofa" role="tabpanel">Coming soon: Sofa products…</div>
+          <div class="tab-pane fade" id="tables" role="tabpanel">Coming soon: Table products…</div>
+          <div class="tab-pane fade" id="storage" role="tabpanel">Coming soon: Storage items…</div>
+          <div class="tab-pane fade" id="kitchen" role="tabpanel">Coming soon: Kitchen furniture…</div>
+    </section>
+
+    <section class="top-selling-prducts position-relative ">
+      <div class="category-strip-section position-relative my-9">
+        <!-- Category Strip -->
+        <div class="category-strip">
+          <ul class="category-strip__list">
+            <li class="category-strip__item">Bedroom</li>
+            <li class="category-strip__item">Living Room</li>
+            <li class="category-strip__item">Office</li>
+            <li class="category-strip__item">Kitchen</li>
+            <li class="category-strip__item">Chair</li>
+            <li class="category-strip__item">Table</li>
+            <li class="category-strip__item">Wardrobes</li>
+            <li class="category-strip__item">Sofa</li>
+            <li class="category-strip__item">Storage</li>
+            <li class="category-strip__item">Bedroom</li>
+            <li class="category-strip__item">Living Room</li>
+            <li class="category-strip__item">Office</li>
+            <li class="category-strip__item">Kitchen</li>
+          </ul>
+        </div>
+      </div>
+      <div class="top-selling__ellipse-top position-absolute start-0 "></div>
+      <div class="top-selling__ellipse-bottom position-absolute end-0 "></div>
+      <div class="top-selling__ellipse-center position-absolute "></div>
+      <div class="text-watermark">Top Selling Products</div>
+      <div class="text-watermark-left">Brand : Graphics Corner</div>
+      <div class="text-watermark-right">Brand : Graphics Corner</div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center align-items-center">
+            <h2 class="home-page-title product-section__title position-relative">
+              Top Selling Products
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="top-selling-products__container">
+            <div class="swiper productSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="swiper-zoom-container d-flex flex-column">
+                      <img src="images/p1.png" />
+                      <div class="top-selling-products__footer swiper-zoom-caption position-relative">
+                        <h3>Urban Chair</h3>
+                        <p><span>$106.00</span> <span>$99.00</span></p>
+                        <button class="btn btn-custom">Add To Cart</button>
+                        <span class="top-selling-products__arrow"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-zoom-container d-flex flex-column">
+                      <img src="images/p2.png" />
+                      <div class="top-selling-products__footer swiper-zoom-caption position-relative">
+                        <h3>Urban Chair</h3>
+                        <p><span>$106.00</span> <span>$99.00</span></p>
+                        <button class="btn btn-custom">Add To Cart</button>
+                        <span class="top-selling-products__arrow"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-zoom-container d-flex flex-column">
+                      <img src="images/p3.png" />
+                      <div class="top-selling-products__footer swiper-zoom-caption position-relative">
+                        <h3>Urban Chair</h3>
+                        <p><span>$106.00</span> <span>$99.00</span></p>
+                        <button class="btn btn-custom">Add To Cart</button>
+                        <span class="top-selling-products__arrow"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-zoom-container d-flex flex-column">
+                      <img src="images/p4.png" />
+                      <div class="top-selling-products__footer swiper-zoom-caption position-relative">
+                        <h3>Urban Chair</h3>
+                        <p><span>$106.00</span> <span>$99.00</span></p>
+                        <button class="btn btn-custom">Add To Cart</button>
+                        <span class="top-selling-products__arrow"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-zoom-container d-flex flex-column">
+                      <img src="images/p5.png" />
+                      <div class="top-selling-products__footer swiper-zoom-caption position-relative">
+                        <h3>Urban Chair</h3>
+                        <p><span>$106.00</span> <span>$99.00</span></p>
+                        <button class="btn btn-custom">Add To Cart</button>
+                        <span class="top-selling-products__arrow"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Swiper JS -->
@@ -284,6 +505,23 @@
             slidesPerView: 4,
           },
         },
+      });
+    </script>
+    <script>
+      var productSwiper = new Swiper(".productSwiper", {
+        zoom: true,
+        slidesPerView: 1,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: false,
+        breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+      },
       });
     </script>
   </body>
